@@ -1,0 +1,39 @@
+.btn-outine {
+  text-align: center;
+  padding: 8px 20px;
+  background-color: transparent;
+  color: var(--universal-color);
+  font-size: 1.1rem;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.btn {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: var(--universal-color);
+  color: var(--bg-color);
+  font-size: 1.1rem;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  .btn-outine {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .btn-outine {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btn-outine {
+    display: none;
+  }
+}
