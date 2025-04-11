@@ -7,17 +7,40 @@
   border-radius: 5px;
   letter-spacing: 0.5px;
   cursor: pointer;
+  border: 2px solid var(--universal-color);
 }
 
 .btn {
   text-align: center;
   padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  background-color: var(--universal-color);
+  color: var(--bg-color);
+  border: 2px solid var(--universal-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+  background-color: var(--btn_hover);
+}
+
+.btnHome {
+  text-align: center;
+  padding: 15px 80px;
   background-color: var(--universal-color);
   color: var(--bg-color);
   font-size: 1.1rem;
   border-radius: 5px;
   letter-spacing: 0.5px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnHome:hover{
+  background-color: var(--btn_hover);
 }
 
 @media (max-width: 320px) {

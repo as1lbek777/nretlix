@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Ul.css"
 
-function Button({ text, outlineBtn }) {
+function Button({ text, outlineBtn, homeBtn }) {
   return (
-    <button className={`${outlineBtn ? "btn-outine" : "btn  "}`}>
+    <button className={`${outlineBtn ? "btn-outine" : 'btn'} ${homeBtn ? "btnHome" : ''}`}>
       {text}
     </button>
   )
